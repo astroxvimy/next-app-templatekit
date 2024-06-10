@@ -3,10 +3,6 @@
  This repository is a full-stack sample web application based on Next.js that creates a simple whole-website architecture, and provides the foundational services, components, and plumbing needed to get a basic web application up and running. 
 
 
-
-![quick overview](public/assets/images/screenshot.jpg)
-
-
 ## Table of Contents
 
 * [Scheme](#scheme)
@@ -1022,16 +1018,3 @@ $ npm cache verify
 - React 18 +
 - TypeScript 4.x.x + 
 - Express 4.x.x
-
-
-
-## Changelog
-
-[releases](CHANGELOG.md)
-
-
-
-## Licensing
-
-Licensed under the [MIT](https://opensource.org/licenses/MIT).
-

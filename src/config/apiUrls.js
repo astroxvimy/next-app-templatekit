@@ -13,7 +13,7 @@ const config = {
 	 TYPE: Site Configuration
 	 ------------------------------------------
 	*/
-	"MENU": "https://uiux.cc/server/navigation.php",
+	"MENU": "https://localhost:8080/server/navigation.php",
 
 	/*
 	 TYPE: Posts
@@ -27,14 +27,14 @@ const config = {
 	 TYPE: Posts Pagination
 	 ------------------------------------------
 	*/
-	 "RECEIVE_PAGE_LIST": `https://uiux.cc/server/posts-pagination.php?page={page}`,
+	 "RECEIVE_PAGE_LIST": `https://localhost:8080/server/posts-pagination.php?page={page}`,
 
 	/*
 	 TYPE: User (The PHP files are located at `./public/server/`)
 	 ------------------------------------------
 	*/
-	"LOGIN_REQUEST": `https://uiux.cc/server/sessions-create.php`,
-	"USER_AUTHENTICATE": `https://uiux.cc/server/authenticate.php`,
+	"LOGIN_REQUEST": `https://localhost:8080/server/sessions-create.php`,
+	"USER_AUTHENTICATE": `https://localhost:8080/server/authenticate.php`,
 	"SIGNUP_REQUEST": "",
 	
 	  
@@ -42,8 +42,8 @@ const config = {
 	 TYPE: CRUD (The PHP files are located at `./public/server/`)
 	 ------------------------------------------
 	*/
-	"CRUD_SERVICE": `https://uiux.cc/server/curd.php`,
-	"CRUD_DATA_INIT": `https://uiux.cc/server/curd-data-init.php`,
+	"CRUD_SERVICE": `https://localhost:8080/server/curd.php`,
+	"CRUD_DATA_INIT": `https://localhost:8080/server/curd-data-init.php`,
 	
 	/*
 	 TYPE: Downlaod remote file

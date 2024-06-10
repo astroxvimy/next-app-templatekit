@@ -60,7 +60,6 @@ if( isset($_SESSION['last_access']) && (time() - $_SESSION['last_access']) > 600
 		"code" => 419
 	);
 	
-	//header('Location: https://uiux.cc/poemkit'); 
 	//exit();
 }
   
