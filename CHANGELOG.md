@@ -1,5 +1,10 @@
 # Changelog
 
+#### = 1.2.6 (June 10, 2024) =
+
+* Updated: useDraggable hook.
+* Updated: some docs.
+
 #### = 1.2.5 (April 23, 2024) =
 
 * Upgraded: nextjs to 4.2.2+.
